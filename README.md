@@ -26,7 +26,7 @@ PoolSeeder is a program that can automatically seed pools in Challonge tournamen
 2) Type in the number of pools initially entered.
 3) Hit Undo.
 
-### Notes:
+## Notes:
 - This only works with tournaments that have a number of participants that can be evenly divided into the number of pools wanted. To account for this, this program adds a number of "blank participants" to even out the number of entrants before seeding. These participants are effectively "byes" for anyone who fights them.
 - DO NOT delete these participants, the undo button removes them after it is done resetting. Deleting them before undoing can result in a completely messed up bracket.
 
